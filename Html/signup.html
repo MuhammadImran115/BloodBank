@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/js/bootstrap.js">
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+</head>
+<body>
+   <div class="jumbotron"> 
+        <header><h2>signup</h2></header>
+    </div>
+
+    <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                
+                <div class="col-md-4">
+                        <label><b>Name :</b></label>
+                        <input type="text" name="Name" id="name" class="form-control col-md-6">
+                         
+                        <label><b>Email :</b></label>
+                        <input type="text" name="Email" id="email" class="form-control col-md-6">
+                         
+                        <label><b>Password :</b></label>
+                        <input type="password" name="Password" id="password" class="form-control col-md-6">
+                         
+                        <label><b>City :</b></label>
+                        <input type="text" name="City" id="city" class="form-control col-md-6">
+                         <br>
+                        <select id="dropdown" class="btn col-md-6" style="border :1px solid black">
+                            <option value="donar">Donar</option>
+                            <option value="acceptor">Acceptor</option>
+                        </select>
+                        <br><br>
+                        <button id="signup" class="btn col-md-6"><b>SignUp</b></button>
+                </div>
+            
+    </div> 
+    <script src="../Script/signup.js"></script>
+</body>
+</html>
